@@ -1,0 +1,154 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Nature's Gift Test Site</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    
+    
+    <body>
+        
+        
+        
+<!--------------------------------navigation tools------------------------------>
+        
+        
+         <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/Logo.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="page.html">PAGE</a></li>
+                    <li><a href="Contact%20Us.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+            
+            
+<!------------------------------Home Page Content------------------------------->         
+            
+        <h1>Contact Us</h1>
+                     
+            
+            
+        
+        </section>
+        
+   
+<!----------------------------contact us content-------------------------------->
+        
+     <section class="location">
+         
+         
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4594.73475207627!2d120.8498028152192!3d14.368696586568815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33962b0c4048e2d5%3A0x6f98e408aaffb117!2sMonterra%20Verde%20Subdivision!5e1!3m2!1sen!2sph!4v1661235342366!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         
+         
+        </section>   
+       
+    <section class="cntc">
+        
+        <div class="row">
+            <div class="cntc-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Monterra Verde Subdivision, Tanza, Cavite</h5>
+                        <p>Blk??? lot???</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>0922 222 2223</h5>
+                        <p>Any day Execpt Sunday</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>email_name@gmail.com</h5>
+                        <p>Contact us for more!</p>
+                    </span>
+                </div>
+            </div>
+            <div class="cntc-col">
+            
+            <form action="form-handel.php" method="post">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea rows="8" name="messege" placeholder="Messege"></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Messege</button>
+                </form>
+            
+            
+            </div>
+        </div>
+        
+        
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+ <!-----------------------------------footer------------------------------------>       
+    <section class="ftr">
+        <h4>About Us</h4>
+        <p>Our company only cares about the wellfare of our costumers and to bless others by giving them the most <br>trusted, tried and tested, and the  best quality products</p>
+        
+        <div class="icons">
+             <i class="fa fa-facebook"></i>
+             <i class="fa fa-twitter"></i>
+             <i class="fa fa-instagram"></i>
+             <i class="fa fa-twitch"></i>
+        </div>
+        
+        <p>Made With <i class="fa fa-heart-o"></i> By BlueLemon</p>
+        
+        
+        </section>
+        
+        
+        
+        
+        
+        
+       
+        
+ <!------------------- javascript for toggle menu ----------------------->
+        
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            
+            function showmenu(){
+                navlinks.style.right = "0"; 
+            }
+            function hidemenu(){
+                navlinks.style.right = "-200px"; 
+            }
+            
+        </script>
+        
+        
+    </body>
+
+
+</html>
